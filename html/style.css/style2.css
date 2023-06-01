@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.logo{
+	position: relative;
+	margin: 0;
+	bottom: 0;
+	
+}
+h1 span{
+	font-family: 'Rubik Iso', cursive;
+
+}
+
+body {
+	background-color: #000;
+	
+
+}
+.container{
+	width:768px;
+	margin: 0 auto;
+}
+.page-header,
+.page-footer{
+	background: rgb(123, 227, 120);
+	color: #ffffff;
+}
+
+
+.product1{
+	position:relative;
+	padding: 20px;
+	min-height: 120px;
+	background-color:#fbfbfb;
+	border-radius: 15px;
+	list-style: none;
+}
+
+.products-list{
+	padding: 10px 20px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
+}
+.product > h2{
+	color: rgb(255, 253, 253);
+}
+
+.product > p {
+	color: rgb(165, 173, 173);
+}
+.product-2 > p {
+	color: rgb(255, 251, 251);
+
+}
+
+.product-3 > p {
+	color: rgb(255, 255, 255);
+}
+
+.product-4 > p {
+	color: rgb(255, 255, 255);
+}
+.product2{
+	position:relative;
+	padding: 20px;
+	min-height: 120px;
+	background-color:#ffffff;
+	border-radius: 15px;
+	list-style: none;
+}
+
+.product3{
+	position:relative;
+	padding: 20px;
+	min-height: 120px;
+	background-color:#ffffff;
+	border-radius: 15px;
+	list-style: none;
+}
+
+.product4{
+	position:relative;
+	padding: 20px;
+	min-height: 120px;
+	background-color:#ffffff;
+	border-radius: 15px;
+	list-style: none;
+}
